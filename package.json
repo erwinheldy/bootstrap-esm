@@ -22,12 +22,16 @@
   "module": "./dist/bootstrap.js",
   "types": "./dist/bootstrap.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "scss"
   ],
   "scripts": {
     "build": "node builder.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "@popperjs/core": "2.11.8"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.15.0",
