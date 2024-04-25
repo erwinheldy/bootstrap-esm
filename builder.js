@@ -7,6 +7,9 @@ const { src, dest } = vfs
 if (fs.existsSync('dist'))
   fs.rmSync('dist', { recursive: true })
 
+if (fs.existsSync('scss'))
+  fs.rmSync('scss', { recursive: true })
+
 src('node_modules/bootstrap/js/index.esm.js')
   .pipe(rename('bootstrap.js'))
   .pipe(dest('dist'))
