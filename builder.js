@@ -18,3 +18,6 @@ src('node_modules/bootstrap/js/src/**/*')
 
 src('node_modules/@types/bootstrap/js/dist/**/*')
   .pipe(dest('dist/src'))
+
+src('node_modules/bootstrap/scss/**/*')
+  .pipe(dest('scss'))
