@@ -34,7 +34,7 @@
     "@popperjs/core": "2.11.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.15.0",
+    "@antfu/eslint-config": "2.16.0",
     "@popperjs/core": "2.11.8",
     "@types/bootstrap": "5.2.10",
     "@types/gulp-rename": "2.0.6",
