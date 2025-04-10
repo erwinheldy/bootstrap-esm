@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-esm",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES Module version of Bootstrap v5 with tree shaking support for optimized code",
   "license": "MIT",
   "repository": "https://github.com/erwinheldy/bootstrap-esm",
@@ -40,7 +40,7 @@
     "@types/gulp-rename": "2.0.6",
     "@types/node": "20.12.7",
     "@types/vinyl-fs": "3.0.5",
-    "bootstrap": "5.3.3",
+    "bootstrap": "5.3.5",
     "eslint": "8.57.0",
     "gulp-rename": "2.0.0",
     "typescript": "5.4.5",
