@@ -4,7 +4,7 @@ ES Module version of Bootstrap v5 with tree shaking support for optimized code.
 
 **Notes: This package is intended for use by bundlers.**
 
-**Bootstrap version used: v5.3.6**
+**Bootstrap version used: v5.3.7**
 
 ## Why ?
 
