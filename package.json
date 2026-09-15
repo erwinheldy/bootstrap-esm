@@ -1,49 +1,47 @@
 {
   "name": "bootstrap-esm",
-  "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ES Module version of Bootstrap v5 with tree shaking support for optimized code",
-  "license": "MIT",
-  "repository": "https://github.com/erwinheldy/bootstrap-esm",
+  "keywords": [
+    "css",
+    "framework",
+    "front-end",
+    "mobile-first",
+    "responsive",
+    "sass",
+    "web"
+  ],
   "bugs": {
     "url": "https://github.com/erwinheldy/bootstrap-esm/issues"
   },
-  "keywords": [
-    "css",
-    "sass",
-    "mobile-first",
-    "responsive",
-    "front-end",
-    "framework",
-    "web"
-  ],
-  "sideEffects": false,
-  "main": "./dist/bootstrap.js",
-  "module": "./dist/bootstrap.js",
-  "types": "./dist/bootstrap.d.ts",
+  "license": "MIT",
+  "repository": "https://github.com/erwinheldy/bootstrap-esm",
   "files": [
     "dist",
     "scss"
   ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/bootstrap.js",
+  "module": "./dist/bootstrap.js",
+  "types": "./dist/bootstrap.d.ts",
   "scripts": {
-    "build": "node builder.js",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
-  },
-  "peerDependencies": {
-    "@popperjs/core": "2.11.8"
+    "build": "bun builder.js",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.16.0",
     "@popperjs/core": "2.11.8",
-    "@types/bootstrap": "5.2.10",
-    "@types/gulp-rename": "2.0.6",
-    "@types/node": "20.12.7",
-    "@types/vinyl-fs": "3.0.6",
-    "bootstrap": "5.3.7",
-    "eslint": "8.57.0",
-    "gulp-rename": "2.0.0",
-    "typescript": "5.4.5",
-    "vinyl-fs": "4.0.2"
+    "@types/bootstrap": "5.2.11",
+    "@types/bun": "1.4.2",
+    "bootstrap": "5.3.8",
+    "oxfmt": "0.68.0",
+    "oxlint": "1.83.0",
+    "typescript": "7.0.2"
+  },
+  "peerDependencies": {
+    "@popperjs/core": "^2.11.8"
   }
 }
